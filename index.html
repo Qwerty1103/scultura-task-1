@@ -7,18 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
-  <link rel="stylesheet" href="index.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
   <title>Koach AI | Home</title>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg static-top">
+    <!-- Navbar -->
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img class="logo my-3" src="./logo.png" alt="..." height="36" />
+        <img class="logo my-3" src="./img/logo.png" alt="..." height="36" /> <!-- Koach Ai logo in Navbar  -->
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,8 +52,9 @@
 
   <div class="container">
     <ul class="section section1">
-      <li class="body-item s1-text">
-        <img class="body-logo" src="./logo-body.png" alt="Koach AI logo" />
+      <!-- Section 1: Upskill your people career...  -->
+      <li class="body-item s1-text txt-container">
+        <img class="body-logo" src="./img/logo-body.png" alt="Koach AI logo" /> <!-- Koach Ai logo in Body  -->
         <div class="heading heading1">
           Upskill your people career with
           <span style="color: #0eddc9">Koach.AI</span>
@@ -68,11 +71,14 @@
         </div>
       </li>
       <li class="body-item">
-        <img class="bodyImage1" src="./body-image-1.png" alt="Illustration Image" />
+        <!-- Image beside Upskill your...  -->
+        <img class="blur" src="./img/blur.svg" alt="blur">
+        <img class="bodyImage1" src="./img/body-image-1.svg" alt="Illustration Image" />
       </li>
     </ul>
 
     <ul class="section section2">
+      <!-- Section 2:  We will help your frontline workers...  -->
       <li class="body-item s1-text">
         <div class="heading heading2">
           We will help you
@@ -84,24 +90,31 @@
         </div>
         <ul class="bodyList">
           <li>
-            <img src="./bullet.png" alt="bullet" />&nbsp; Goal-based
+            <img src="./img/bullet.png" alt="bullet" />&nbsp; Goal-based
             personalized teaching
           </li>
           <li>
-            <img src="./bullet.png" alt="bullet" />&nbsp; Ensuring vernacular
+            <img src="./img/bullet.png" alt="bullet" />&nbsp; Ensuring vernacular
             medium
           </li>
           <li>
-            <img src="./bullet.png" alt="bullet" />&nbsp; Learning through
+            <img src="./img/bullet.png" alt="bullet" />&nbsp; Learning through
             relevant scenarios
           </li>
         </ul>
       </li>
+
       <li class="body-item">
-        <img class="bodyImage2" src="./body-image-2.png" alt="Illustration Image" />
+        <div class="s2Image">
+          <img class="bodyImage2-1 " style="border-radius: 150px;" src="./img/s2-img-1.svg" alt="Illustration Image" />
+          <img class="bodyImage2-2 " style="border-radius: 150px;" src="./img/s2-img-2.svg" alt="Illustration Image" />
+          <img class="bodyImage2-3 " style="border-radius: 150px;" src="./img/s2-icon.svg" alt="Illustration Image" />
+        </div>
       </li>
+
     </ul>
 
+    <!-- Section 3: Skills -->
     <div class="skills">SKILLS</div>
     <ul class="section section3">
       <li class="body-item s3-text">
@@ -114,14 +127,16 @@
         </div>
       </li>
       <ul class="image-list">
-        <li><img src="./image1.png" alt="Illustration Image"><br>Manage Self</li>
-        <li><img src="./image2.png" alt="Illustration Image"><br>Manage Others</li>
-        <li><img src="./image3.png" alt="Illustration Image"><br>Growth Mindset</li>
-        <li><img src="./image4.png" alt="Illustration Image"><br>Professional Awareness</li>
-        <li><img src="./image5.png" alt="Illustration Image"><br>Overcome Challenges</li>
+        <li><img src="./img/image1.png" alt="Illustration Image"><br>Manage Self</li>
+        <li><img src="./img/image2.png" alt="Illustration Image"><br>Manage Others</li>
+        <li><img src="./img/image3.png" alt="Illustration Image"><br>Growth Mindset</li>
+        <li><img style="padding-top: 6px" src="./img/image4.png" alt="Illustration Image"><br>Professional Awareness
+        </li>
+        <li><img style="padding-top: 6px" src="./img/image5.png" alt="Illustration Image"><br>Overcome Challenges</li>
       </ul>
     </ul>
 
+    <!-- Section 4: Method -->
     <ul class="section section4">
       <li class="body-item s1-text">
         <div class="method">
@@ -139,10 +154,327 @@
         </div>
       </li>
       <li class="body-item">
-        <img class="bodyImage2" src="./body-image-3.png" alt="Illustration Image" />
+        <div class="s4Image">
+          <img class="bodyImage4-1 " style="border-radius: 150px;" src="./img/s4-img1.png" alt="Illustration Image" />
+          <img class="bodyImage4-2 " style="border-radius: 150px;" src="./img/s4-img2.png" alt="Illustration Image" />
+          <img class="bodyImage4-3 " style="border-radius: 150px;" src="./img/s4-img3.png" alt="Illustration Image" />
+          <img class="bodyImage4-4 " style="border-radius: 150px;" src="./img/s4-img4.png" alt="Illustration Image" />
+          <img class="bodyImage4-5 " style="border-radius: 150px;" src="./img/s4-img5.png" alt="Illustration Image" />
+        </div>
       </li>
     </ul>
 
+    <!-- Section 5: Channels -->
+    <div class="skills">CHANNELS</div>
+    <ul class="section section5">
+      <li class="body-item s3-text">
+        <div class="heading heading5">
+          Upskill yourself with a <span style="color: #0eddc9"> human & tech </span> blend
+        </div>
+        <div class="subtext3">
+          Access our growth in multiple platforms.
+        </div>
+      </li>
+    </ul>
+
+    <!-- Section 6 -->
+    <div class="s6Container">
+      <img class="ellipse1" src="./img/curve1-ellipse.png" alt="">
+      <img class="circle1" src="./img/curve1-circle.png" alt="">
+      <ul class="section section6">
+        <li class="body-item s6Image">
+          <img class="bodyImage6-1 " src="./img/s6-img1.svg" alt="Illustration Image" />
+          <img class="bodyImage6-2 " src="./img/s6-img2.svg" alt="Illustration Image" />
+          <img class="bodyImage6-3 " src="./img/s6-img3.svg" alt="Illustration Image" />
+          <img class="bodyImage6-4 " src="./img/s6-img4.svg" alt="Illustration Image" />
+        </li>
+        <li class="body-item s1-text">
+          <img style="margin-left: 10vw;margin-top: 20vh;" src="./img/s6-logo.svg" alt="">
+          <div class="heading heading6">
+            We will help you
+            <span style="color: #0eddc9">get a job</span>
+          </div>
+          <div class="subtext2">
+            We will help your frontline workers in getting a job by equipping them with essential skills to move ahead
+            in their professional lives.
+          </div>
+          <ul class="bodyList">
+            <li>
+              <img src="./img/bullet2.svg" alt="bullet" />&nbsp; Goal-based
+              personalized teaching
+            </li>
+            <li>
+              <img src="./img/bullet2.svg" alt="bullet" />&nbsp; Ensuring vernacular
+              medium
+            </li>
+            <li>
+              <img src="./img/bullet2.svg" alt="bullet" />&nbsp; Learning through
+              relevant scenarios
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Section 7  -->
+    <div class="s7Container">
+      <img class="ellipse2" src="./img/curve2-ellipse.png" alt="">
+      <img class="circle2" src="./img/curve2-circle.png" alt="">
+      <ul class="section section7">
+        <li class="body-item s7Image">
+          <img class="bodyImage7-2 " src="./img/s7-img2.svg" alt="Illustration Image" />
+          <img class="bodyImage7-1 " src="./img/s7-img1.svg" alt="Illustration Image" />
+        </li>
+        <li class="body-item s7-text">
+          <img style="margin-left: 10vw;margin-top: 20vh;" src="./img/s7-logo.svg" alt="">
+          <div class="heading heading7">
+            We will help you
+            <span style="color: #0eddc9">get a job</span>
+          </div>
+          <div class="subtext7">
+            We will help your frontline workers in getting a job by equipping them with essential skills to move ahead
+            in their professional lives.
+          </div>
+          <ul class="bodyList">
+            <li>
+              Goal-based
+              personalized teaching <img src="./img/bullet3.svg" alt="bullet" />&nbsp;
+            </li>
+            <li>
+              Ensuring vernacular
+              medium <img src="./img/bullet3.svg" alt="bullet" />&nbsp;
+            </li>
+            <li>
+              Learning through
+              relevant scenarios <img src="./img/bullet3.svg" alt="bullet" />&nbsp;
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Section 8  -->
+    <div class="s6Container">
+      <img class="ellipse3" src="./img/curve1-ellipse.png" alt="">
+      <img class="circle3" src="./img/curve1-circle.png" alt="">
+      <ul class="section section6">
+        <li class="body-item s6Image">
+          <img class="bodyImage6-1 " src="./img/s6-img3.svg" alt="Illustration Image" />
+          <img class="bodyImage6-2 " src="./img/s8-img1.svg" alt="Illustration Image" />
+          <img class="bodyImage6-3 " src="./img/s8-img2.svg" alt="Illustration Image" />
+        </li>
+        <li class="body-item s8-text">
+          <img style="margin-left: 5vw; margin-top: 30vh;" src="./img/s6-logo.svg" alt="">
+          <div class="heading heading8">
+            We will help you
+            <span style="color: #0eddc9">get a job</span>
+          </div>
+          <div class="subtext8">
+            We will help your frontline workers in getting a job by equipping them with essential skills to move ahead
+            in their professional lives.
+          </div>
+          <ul class="bodyList s8BodyList">
+            <img src="./img/bullet4.svg" alt="bullet" />&nbsp; Goal-based
+            personalized teaching
+        </li>
+        <li>
+          <img src="./img/bullet4.svg" alt="bullet" />&nbsp; Ensuring vernacular
+          medium
+        </li>
+        <li>
+          <img src="./img/bullet4.svg" alt="bullet" />&nbsp; Learning through
+          relevant scenarios
+        </li>
+      </ul>
+      </li>
+      </ul>
+    </div>
+
+    <!-- Section 9  -->
+    <div class="s9Container">
+      <img class="ellipse4" src="./img/curve2-ellipse.png" alt="">
+      <img class="circle4" src="./img/curve1-circle.png" alt="">
+      <ul class="section section9">
+        <li class="body-item s9Image">
+          <img class="bodyImage7-2 " src="./img/s9-img2.svg" alt="Illustration Image" />
+          <img class="bodyImage7-1 " src="./img/s9-img1.svg" alt="Illustration Image" />
+        </li>
+        <li class="body-item s9-text">
+          <img style="margin-left: 10vw;margin-top: 20vh;" src="./img/s6-logo.svg" alt="">
+          <div class="heading heading7">
+            We will help you
+            <span style="color: #0eddc9">get a job</span>
+          </div>
+          <div class="subtext7">
+            We will help your frontline workers in getting a job by equipping them with essential skills to move ahead
+            in their professional lives.
+          </div>
+          <ul class="bodyList">
+            <li>
+              Goal-based
+              personalized teaching <img src="./img/bullet2.svg" alt="bullet" />&nbsp;
+            </li>
+            <li>
+              Ensuring vernacular
+              medium <img src="./img/bullet2.svg" alt="bullet" />&nbsp;
+            </li>
+            <li>
+              Learning through
+              relevant scenarios <img src="./img/bullet2.svg" alt="bullet" />&nbsp;
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Section 10  -->
+    <div class="s6Container">
+      <img class="ellipse5" src="./img/curve5-ellipse2.png" alt="">
+      <img class="circle5" src="./img/curve2-circle.png" alt="">
+      <ul class="section section6">
+        <li class="body-item s6Image">
+          <img class="bodyImage6-1 " src="./img/s10-img1.svg" alt="Illustration Image" />
+          <img class="bodyImage6-2 " src="./img/s10-img2.svg" alt="Illustration Image" />
+        </li>
+        <li class="body-item s10-text">
+          <img style="margin-top: 40vh;" src="./img/s10-logo.svg" alt="">
+          <div class="heading heading8" style="margin-left: 0vh;">
+            We will help you
+            <span style="color: #0eddc9">get a job</span>
+          </div>
+          <div class="subtext8" style="margin-left: 0vh;">
+            We will help your frontline workers in getting a job by equipping them with essential skills to move ahead
+            in their professional lives.
+          </div>
+          <ul class="bodyList s8BodyList" style="margin-left: 0vh;">
+            <img src="./img/bullet4.svg" alt="bullet" />&nbsp; Goal-based
+            personalized teaching
+        </li>
+        <li>
+          <img src="./img/bullet4.svg" alt="bullet" />&nbsp; Ensuring vernacular
+          medium
+        </li>
+        <li>
+          <img src="./img/bullet4.svg" alt="bullet" />&nbsp; Learning through
+          relevant scenarios
+        </li>
+      </ul>
+      </li>
+      </ul>
+    </div>
+
+    <!-- Section 11: Services -->
+    <div class="services">SERVICES</div>
+    <ul class="section section11">
+      <li class="body-item s3-text">
+        <div class="heading heading5">
+          Our <span style="color: #0eddc9"> services </span> cater to
+        </div>
+      </li>
+    </ul>
+    <ul class="image-list">
+      <li class="s11-li"><img style="border-radius: 150px;" src="./img/s11-img1.svg" alt="Illustration Image"><br><span
+          style="font-weight: 600; font-size: 22px; color: rgba(14, 221, 201, 1);"> Businesses</span> <span
+          style="font-weight: 600; color: rgba(14, 221, 201, 1);"><br>Know More <img style="padding-bottom: 0px;"
+            src="./img/arrow.svg" alt=""></span></li>
+      <li class="s11-li"><img style="border-radius: 150px;" src="./img/s11-img2.svg" alt="Illustration Image"><br><span
+          style="font-weight: 600; font-size: 22px; color: rgba(248, 188, 59, 1);"> Social Sector</span> <span style="font-weight: 600; color: rgba(248, 188, 59, 1);
+        ;"><br>Know More <img style="padding-bottom: 0px;" src="./img/arrow2.svg" alt=""></span></li>
+      <li class="s11-li"><img style="border-radius: 150px;" src="./img/s11-img3.svg" alt="Illustration Image"><br><span
+          style="font-weight: 600; font-size: 22px; color: rgba(255, 148, 8, 1);"> Institutions</span> <span
+          style="font-weight: 600; color: rgba(255, 148, 8, 1);"><br>Know More <img style="padding-bottom: 0px;"
+            src="./img/arrow3.svg" alt=""></span></li>
+    </ul>
+
+    <!-- Section 12: IMPACT -->
+    <div class="services" style="margin-top: 10vh;">IMPACT</div>
+    <ul class="section section11">
+      <li class="body-item s3-text">
+        <div class="heading heading5">
+          Check out the lives we have <span style="color: #0eddc9"> changed </span>
+        </div>
+      </li>
+    </ul>
+    <ul class="image-list" style="font-weight: 400; font-size: 16px; margin-bottom: 0;">
+      <li class="s11-li"><span
+          style="font-size: 28px; color: rgba(102, 6, 239, 1); font-weight: 700;">90%</span><br>Live Classes</li>
+      <li class="s11-li"><span
+          style="font-size: 28px; color: rgba(102, 6, 239, 1); font-weight: 700;">60%</span><br>Lower Cost</li>
+      <li class="s11-li"><span
+          style="font-size: 28px; color: rgba(102, 6, 239, 1); font-weight: 700;">5x</span><br>Scalability</li>
+      <li class="s11-li"><span
+          style="font-size: 28px; color: rgba(102, 6, 239, 1); font-weight: 700;">90%</span><br>Live Classes</li>
+    </ul>
+    <div class="s12Card" style="display: flex; align-items:center; justify-content: center;">
+      <img src="./img/left-arrow.svg" alt="" style="margin-right: 5vw;">
+      <img src="./img/s12-card.svg" alt="">
+      <img src="./img/right-arrow.svg" alt="" style="margin-left: 5vw;">
+    </div>
+    <div class="s12txt" style="display: flex; align-items:center; justify-content:center; margin-top:5vh">
+      <img src="./img/s12-subtext.svg" alt="">
+    </div>
+
+    <!-- Section 13: PRODUCT -->
+    <div class="services" style="margin-top: 20vh;">PRODUCT</div>
+    <ul class="section section11">
+      <li class="body-item s3-text">
+        <div class="heading">
+          Check out <span style="color: #0eddc9"> how it works </span>
+        </div>
+      </li>
+    </ul>
+    <div class="s12Card" style="display: flex; align-items:center; justify-content: center;">
+      <img src="./img/s13-image.svg" alt="">
+    </div>
+    <div class="s12txt" style="display: flex; align-items:center; justify-content:center; margin-top:5vh">
+      <img src="./img/s13-txt.svg" alt="">
+    </div>
+
+    <!-- Section 14: CONTACT -->
+    <ul class="section section11">
+      <li class="body-item s3-text">
+        <div class="heading" style="margin-top: 20vh">
+          <span style="color: #0eddc9"> Get in touch </span> with us
+        </div>
+      </li>
+    </ul>
+    <div style="display: flex; align-items:center; justify-content: center;">
+      <img src="./img/form.svg" alt="">
+    </div>
+  </div>
+
+  <!-- Section 15: FOOTER -->
+  <ul class="section section11" style="margin-top: 20vh;">
+    <div class="footer" style="display: flex; gap: 4vw; justify-content: center;">
+      <div class="col1" style=" width: 20vw; line-height: 40px;"><img style="margin-bottom: 3vh;" src="./img/c1l1.svg"
+          alt=""><br> Koach Al Technologies Private Limited <br> 499. 7th Main, 3rd Cross, HAL, 2nd Stage Bengaluru,
+        Karnataka 560038. <br> Monday - Friday: 9:30 AM - 5:30 PM</div>
+      <div class="col2" style="width: 18vw; line-height: 40px;">
+        <p
+          style="font-family: 'Quicksand';font-style: normal;font-weight:300;font-size: 22px;line-height: 28px;color: #6606EF; margin-bottom: 3.5vh;">
+          Contact Us</p>
+        <p>enquiry@koach.ai <br> 0804122-8808 / +91 98801 75753
+          (9:30 AM to 5:30 PM)</p>
+      </div>
+      <div class="col3" style="width: 10vw; line-height: 40px;">
+        <p
+          style="font-family: 'Quicksand';font-style: normal;font-weight:300;font-size: 22px;line-height: 28px;color: #6606EF; margin-bottom: 3.5vh;">
+          Services</p>
+        <p>for Businesses <br> for Social Sector <br> for Institutes
+      </div>
+      </p>
+      <div class="col4" style="line-height: 20px;">
+        <p
+          style="font-family: 'Quicksand';font-style: normal;font-weight:300;font-size: 22px;line-height: 28px;color: #6606EF; margin-bottom: 3.5vh;">
+          Follow us</p>
+        <p>LinkedIn</p>
+        <p>Facebook</p>
+        <p>Twitter</p>
+        <p>Youtube</p>
+        <p>Instagram</p>
+      </div>
+    </div>
+  </ul>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
