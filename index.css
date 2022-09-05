@@ -152,7 +152,7 @@ li {
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
     color: #6a00ff;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -561,6 +561,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .s11-li {
@@ -1128,15 +1129,37 @@ li {
     }
 }
 
-@media only screen and (min-width: 600px ) and (max-width: 900px) {
+@media only screen and (min-width: 600px) and (max-width: 900px) {
     body {
         width: 100%;
         max-width: 900px;
         font-size: 20px;
     }
 
+    .logo {
+        width: 15vw;
+        height: 10vh;
+    }
+
     .body-item {
         width: 85vw;
+    }
+
+    .bodyList {
+        display: flex;
+        align-content: space-around;
+        padding-left: 0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 0vw;
+        line-height: 50px;
+        font-size: 25px;
+    }
+
+    .butn {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 25px;
+        padding: 20px;
     }
 
     .test {
@@ -1155,6 +1178,15 @@ li {
         margin-left: 0px;
     }
 
+    .nav-butn {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .navElement {
+        font-size: 30px;
+    }
+
     .section1 {
         margin-top: 5vh;
         flex-direction: column-reverse;
@@ -1163,8 +1195,7 @@ li {
         text-align: center;
     }
 
-    .heading1
-    {
+    .heading1 {
         margin-top: 5vh;
         font-size: 40px;
     }
@@ -1173,7 +1204,7 @@ li {
         text-align: center;
         width: 60vw;
         line-height: 40px;
-        font-size: 20px;
+        font-size: 25px;
         padding-bottom: 1vh;
     }
 
@@ -1190,7 +1221,7 @@ li {
 
 
     .heading {
-        font-size: 40px;
+        font-size: 50px;
         width: 85vw;
         padding-bottom: 2vh;
         text-align: center;
@@ -1259,16 +1290,7 @@ li {
         padding-left: 0vw;
         padding-right: 0vw;
         text-align: center;
-        font-size: 20px;
-    }
-
-    .bodyList {
-        display: flex;
-        align-content: space-around;
-        padding-left: 0px;
-        flex-direction: column;
-        flex-wrap: wrap;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .skills {
@@ -1277,7 +1299,7 @@ li {
 
     .subtext3 {
         width: 82vw;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .heading3 {
@@ -1304,8 +1326,7 @@ li {
         flex-wrap: wrap;
     }
 
-    .section4
-    {
+    .section4 {
         margin-top: 0px;
     }
 
@@ -1313,6 +1334,7 @@ li {
         padding-left: 0px;
         justify-content: center;
         margin-top: 5vh;
+        font-size: 25px;
     }
 
     .heading4 {
@@ -1359,6 +1381,7 @@ li {
 
     .channels {
         margin-top: 0vh;
+        font-size: 25px;
     }
 
     .s6Container {
@@ -1377,14 +1400,14 @@ li {
     }
 
     .s6-logo {
-        margin-top: 15vh;
+        margin-top: 10vh;
         margin-left: 0vw;
     }
 
     .s6Image {
-        margin-left: 13vw;
+        margin-left: 15vw;
         margin-right: 0vw;
-        height: 50vh;
+        height: 40vh;
     }
 
     .section7 {
@@ -1393,15 +1416,24 @@ li {
 
     .s7Image {
         margin-right: 0px;
-        margin-left: 8vw;
+        margin-left: 18vw;
         margin-top: 0px;
-        height: 60vh;
+        height: 40vh;
+    }
+
+    .bodyImage7-1 {
+        margin-left: 5vw;
+        margin-top: 10vh;
+    }
+
+    .bodyImage7-2 {
+        margin-top: 0vh;
     }
 
     .s7-logo {
         margin-left: 0vw;
         margin-top: 0vh;
-        width: 20vw;
+        width: 10vw;
     }
 
     .s7-text {
@@ -1423,12 +1455,17 @@ li {
         padding-bottom: 0vh;
         text-align: center;
         margin-bottom: 1vh;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
+        font-size: 25px;
+        color: rgb(23, 23, 26);
+        line-height: 50px;
     }
 
     .s8-logo {
         margin-left: 0vw;
         margin-top: 10vh;
-        width: 20vw;
+        width: 10vw;
     }
 
     .heading8 {
@@ -1448,16 +1485,21 @@ li {
         margin-left: 0vw;
         padding-right: 0vw;
         padding-bottom: 2vh;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
+        font-size: 25px;
+        color: rgb(23, 23, 26);
+        line-height: 40px;
     }
 
     .section9 {
-        margin-top: 5vh;
+        margin-top: 10vh;
     }
 
     .s9Image {
-        margin-left: 9vw;
+        margin-left: 20vw;
         margin-right: 0px;
-        height: 50vh;
+        height: 35vh;
     }
 
     .s9-text {
@@ -1469,12 +1511,12 @@ li {
 
     .s9-logo {
         margin-top: 5vh;
-        width: 20vw;
+        width: 10vw;
     }
 
     .s10-logo {
         margin-top: 5vh;
-        width: 20vw;
+        width: 10vw;
     }
 
     .s10-text {
@@ -1484,28 +1526,37 @@ li {
     }
 
     .s10Image {
-        margin-left: 18vw;
+        margin-left: 22vw;
     }
 
     .services {
         margin-top: 10vh;
+        font-size: 25px;
     }
 
     .s11-list {
-        flex-direction: column;
+        flex-direction: row;
         margin-top: 5vh;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         width: 85vw;
-        flex-wrap: wrap;
         align-content: center;
         text-align: center;
     }
 
+    ol, ul {
+        padding-left: 2rem;
+    }
+
     .s11-list li {
         width: 50vw;
-        height: 35vh;
+        height: 25vh;
+    }
+
+    .s11-li
+    {
+        font-size: 25px;
     }
 
     .larrow {
